@@ -156,11 +156,3 @@ where $X_{it}$ represents either built surface or total urban surface.
 ::: {.text-center}
 ![](report_figures/variat_totsurf_ccaa.png)
 :::
-
-# Conclusion
-
-The analysis reveals substantial spatial heterogeneity in housing supply elasticity across Spain.
-
-Municipalities and autonomous communities differ significantly in the availability of developable urban land relative to already built surface. The temporal maps also highlight uneven patterns of urban expansion and housing supply dynamics over time.
-
-This repository provides a reproducible workflow in R for constructing the proxy, processing spatial data, identifying outliers, and generating visualizations.
