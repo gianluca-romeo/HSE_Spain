@@ -6,6 +6,8 @@ The proxy is based on the ratio between potentially developable urban land and a
 
 ## Repository structure
 
+```text
+
 .
 ├── main.R
 ├── R/
@@ -19,6 +21,7 @@ The proxy is based on the ratio between potentially developable urban land and a
 │   └── figures/
 ├── data_sample.xlsx
 └── report.qmd
+```
 
 ## Requirements
 
