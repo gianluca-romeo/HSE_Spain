@@ -7,8 +7,11 @@ The proxy is based on the ratio between potentially developable urban land and a
 ### Report
 
 The report of the replication project is available online at:
-https://gianluca-romeo.github.io/CSOEM_Replication/
+
+https://gianluca-romeo.github.io/HSE_Spain/
+
 The detailed .pdf report is attached below:
+
 [report.pdf](report.pdf)
 
 ---
