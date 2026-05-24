@@ -4,6 +4,15 @@ This repository contains the code used to construct and visualize a proxy for ho
 
 The proxy is based on the ratio between potentially developable urban land and already built urban surface. The analysis covers the period 1994–2024 and produces spatial maps at both municipal and CCAA level.
 
+### Report
+
+The report of the replication project is available online at:
+https://gianluca-romeo.github.io/CSOEM_Replication/
+The detailed .pdf report is attached below:
+[report.pdf](report.pdf)
+
+---
+
 ## Repository structure
 
 ```text
@@ -19,9 +28,10 @@ The proxy is based on the ratio between potentially developable urban land and a
 │   └── 03_variations.R
 ├── outputs/
 │   └── figures/
-├── data_sample.xlsx
-└── report.qmd
+└── data_sample.xlsx
 ```
+
+---
 
 ## Requirements
 
@@ -34,6 +44,8 @@ library(sf)
 library(readxl)
 library(rlang)
 ```
+
+---
 
 ## How to run
 
@@ -49,10 +61,14 @@ The script loads the data, computes the HSE proxy, and saves all figures in:
 outputs/figures/
 ```
 
+---
+
 ## Data
 
 The full dataset is not included in this repository.  
 A sample dataset is provided for demonstration purposes.
+
+---
 
 ## Output
 
