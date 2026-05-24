@@ -25,6 +25,8 @@ The main intuition is that municipalities with larger amounts of potentially dev
 
 The analysis covers Spanish municipalities and autonomous communities over the period 1994–2024.
 
+*This work was carried out during a research assistantship at the University of the Balearic Islands.*
+
 # Data and methodology
 
 The dataset combines cadastral information on urban land with municipal geographic boundaries obtained through the `mapSpain` package in R.
