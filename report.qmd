@@ -35,9 +35,10 @@ $$
 HSE_{it} = \frac{\text{Potentially buildable urban land}_{it}}{\text{Built urban surface}_{it}}
 $$
 
-where $begin:math:text$i$end:math:text$ denotes the municipality and $begin:math:text$t$end:math:text$ denotes the year.
+where $i$ denotes the municipality and $t$ denotes the year.
 
 The dataset includes:
+
 - municipality and autonomous community identifiers;
 - built urban surface;
 - total urban surface;
@@ -48,7 +49,7 @@ The dataset includes:
 
 The distribution of the proxy contains some extreme values, especially among low-density municipalities. These cases are likely driven by municipalities with very small built surfaces or unusually large amounts of available land.
 
-![](outputs/figures/out2024.png)
+![](outputs/report_figures/out2024.png)
 
 # Housing supply elasticity in 2024
 
@@ -58,11 +59,11 @@ The top 2% of values are treated as outliers in order to improve readability.
 
 ## Outliers
 
-![](outputs/figures/outliers_2024.png)
+![](outputs/report_figures/map2024_out.png){width=80%}
 
 ## Municipal-level map without outliers
 
-![](outputs/figures/ratio_2024_no_outliers.png)
+![](outputs/report_figures/map2024_no_out.png){width=80%}
 
 ## Autonomous community level
 
@@ -73,11 +74,12 @@ WR_i = \frac{\sum_{j \in M_i} r_j s_j}{\sum_{j \in M_i} s_j}
 $$
 
 where:
-- $begin:math:text$M\_i$end:math:text$ is the set of municipalities belonging to autonomous community $begin:math:text$i$end:math:text$;
-- $begin:math:text$r\_j$end:math:text$ is the municipal HSE proxy;
-- $begin:math:text$s\_j$end:math:text$ is the municipal total urban surface.
 
-![](outputs/figures/ratio_2024_ccaa.png)
+- $M_i$ is the set of municipalities belonging to autonomous community $i$;
+- $r_j$ is the municipal HSE proxy;
+- $s_j$ is the municipal total urban surface.
+
+![](outputs/report_figures/map2024_ccaa.png)
 
 # Temporal dynamics
 
@@ -91,15 +93,16 @@ $$
 
 ## Municipal-level variation
 
-![](outputs/figures/hse_variation_municipal.png)
+![](outputs/report_figures/variat_ratio.png)
 
 ## Autonomous community variation
 
-![](outputs/figures/hse_variation_ccaa.png)
+![](outputs/report_figures/variat_ratio_ccaa.png)
 
 # Urban surface dynamics
 
 To complement the HSE proxy, the report studies the evolution of:
+
 - built urban surface;
 - total urban surface.
 
@@ -109,27 +112,27 @@ $$
 g_{it} = \frac{1}{4} \left( \ln X_{it} - \ln X_{i,t-4} \right) \times 100
 $$
 
-where $begin:math:text$X\_\{it\}$end:math:text$ represents either built surface or total urban surface.
+where $X_{it}$ represents either built surface or total urban surface.
 
 ## Built surface
 
 ### Municipal level
 
-![](outputs/figures/built_variation_municipal.png)
+![](outputs/report_figures/variat_built.png)
 
 ### Autonomous community level
 
-![](outputs/figures/built_variation_ccaa.png)
+![](outputs/report_figures/variat_built_ccaa.png)
 
 # Total urban surface
 
 ## Municipal level
 
-![](outputs/figures/totsurf_variation_municipal.png)
+![](outputs/report_figures/variat_totsurf.png)
 
 ## Autonomous community level
 
-![](outputs/figures/totsurf_variation_ccaa.png)
+![](outputs/report_figures/variat_totsurf_ccaa.png)
 
 # Conclusion
 
