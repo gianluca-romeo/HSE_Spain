@@ -65,13 +65,13 @@ The top 2% of values are treated as outliers in order to improve readability.
 ## Outliers
 
 ::: {.text-center}
-![](report_figures/map2024_out.png){width=80%}
+![](report_figures/map2024_out.png){width=60%}
 :::
 
 ## Municipal-level map without outliers
 
 ::: {.text-center}
-![](report_figures/map2024_no_out.png){width=80%}
+![](report_figures/map2024_no_out.png){width=60%}
 :::
 
 ## Autonomous community level
@@ -88,7 +88,9 @@ where:
 - $r_j$ is the municipal HSE proxy;
 - $s_j$ is the municipal total urban surface.
 
-![](report_figures/map2024_ccaa.png)
+::: {.text-center}
+![](report_figures/map2024_ccaa.png){width=60%}
+:::
 
 # Temporal dynamics
 
@@ -103,13 +105,13 @@ $$
 ## Municipal-level variation
 
 ::: {.text-center}
-![](report_figures/variat_ratio.png){width=80%}
+![](report_figures/variat_ratio.png)
 :::
 
 ## Autonomous community variation
 
 ::: {.text-center}
-![](report_figures/variat_ratio_ccaa.png){width=80%}
+![](report_figures/variat_ratio_ccaa.png)
 :::
 
 # Urban surface dynamics
@@ -132,13 +134,13 @@ where $X_{it}$ represents either built surface or total urban surface.
 ### Municipal level
 
 ::: {.text-center}
-![](report_figures/variat_built.png){width=80%}
+![](report_figures/variat_built.png)
 :::
 
 ### Autonomous community level
 
 ::: {.text-center}
-![](report_figures/variat_built_ccaa.png){width=80%}
+![](report_figures/variat_built_ccaa.png)
 :::
 
 # Total urban surface
@@ -146,13 +148,13 @@ where $X_{it}$ represents either built surface or total urban surface.
 ## Municipal level
 
 ::: {.text-center}
-![](report_figures/variat_totsurf.png){width=80%}
+![](report_figures/variat_totsurf.png)
 :::
 
 ## Autonomous community level
 
 ::: {.text-center}
-![](report_figures/variat_totsurf_ccaa.png){width=80%}
+![](report_figures/variat_totsurf_ccaa.png)
 :::
 
 # Conclusion
